@@ -18,7 +18,7 @@ while arvamus != arv :
     if loendur > 10:
         break
 
-if loendur <= 10:
+if arvamus == arv:
     print ("Tubli "+nimi+ "! Sa arvasid mu arvu", loendur, "korraga." )
 else :
     print ("Viiest arvamisest ei piisanud! Äkki tahad taktikat muuta?")
