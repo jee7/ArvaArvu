@@ -1,10 +1,10 @@
 import random
 
-arv = random.randint(1, 999)
+arv = random.randint(10, 30)
 
 print("Tere! Mis su nimi on?")
 nimi = input()
-print("Hei, "+ nimi+ ", Arva ära millist tuhandest väiksemat arvu ma mõtlen?")
+print("Hei, "+ nimi+ ", Arva ära millist arvu 10 ja 30 vahel ma mõtlen?")
 arvamus = int(input())
 loendur = 1
 
